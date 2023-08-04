@@ -57,7 +57,7 @@
                                 <form action="{{url('productos/'.$producto->id)}}" method="POST">
                                     @method('DELETE')
                                     @csrf
-                                    <button type="submit" class="btn btn-danger"><strong>Eliminar</strong></button>
+                                    <button type="submit" class="btn btn-danger" onclick="return confirmDelete()"><strong>Eliminar</strong></button>
                                 </form>
                             </td>
                         </tr>
@@ -66,4 +66,14 @@
 
             </table>
     </div>
+    <script>
+        function confirmDelete(){
+            var respuesta = confirm("¿Estas seguro de eliminar este producto?");
+            if(respuesta == true){
+                return true;
+            }else{
+                return false;
+            }
+        }
+    </script>
 </main>

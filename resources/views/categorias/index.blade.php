@@ -39,7 +39,7 @@
                             <form action="{{url('categorias/'.$categoria->id)}}" method="POST">
                                 @method('DELETE')
                                 @csrf
-                                <button type="submit" class="btn btn-danger"><strong>Eliminar</strong></button>
+                                <button type="submit" class="btn btn-danger" onclick="return confirmDelete()"><strong>Eliminar</strong></button>
                             </form>
                         </td>
                     </tr>
@@ -47,4 +47,14 @@
             </tbody>
         </table>
     </div>
+    <script>
+        function confirmDelete(){
+            var respuesta = confirm("¿Estas seguro de eliminar esta categoria?");
+            if(respuesta == true){
+                return true;
+            }else{
+                return false;
+            }
+        }
+    </script>
 </main>
