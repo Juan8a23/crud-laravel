@@ -11,3 +11,14 @@
 <p>NOTA: intenté hacer deploy a la aplicación usando Digital Ocean pero al parecer algo falló en la configuración, sin embargo dejo el link de la live app en caso de que lo quieran ojear, ¡muchas gracias!</p>
 
 <a href="https://crud-app-rnoxn.ondigitalocean.app/productos">CRUD</a>
+
+<h2>IMAGENES DE LA APP</h2>
+
+![Listado de productos creados](https://github.com/Juan8a23/crud-laravel/assets/45237721/95a51d36-6004-457d-974c-862071703149)
+
+![Agregar un producto nuevo](https://github.com/Juan8a23/crud-laravel/assets/45237721/f2a22114-18a1-4ff3-9e04-783701d75232)
+
+![Listado por categorias](https://github.com/Juan8a23/crud-laravel/assets/45237721/36d4eaa6-06e4-4966-8f84-3627d52fdab0)
+
+
+
